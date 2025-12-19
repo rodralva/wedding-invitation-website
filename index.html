@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7b12bcc245.js" crossorigin="anonymous"></script>
     <title>Wedding Invite</title>
+    <style>
+        body { background-image: url('./fondo6.jpg');	background-size: cover;}
+    </style>
 </head>
 <body>
 
@@ -19,42 +22,54 @@
         <label class="logo">I&R</label>
         <ul class="text">
             <li><a href="#story" onclick="myFunction()">Nuestra Historia</a></li>
-            <li><a href="#stay" onclick="myFunction()">Viajar y Alojarse</a></li>
-            <li><a href="#registry" onclick="myFunction()">Promesas</a></li>
+            <li><a href="#stay" onclick="myFunction()">Como llegar</a></li>
+            <li><a href="#registry" onclick="myFunction()">Etiqueta</a></li>
         </ul>
     </nav>
 
 
     <div class="home hz-margin">
-        <h3>Te invitamos a nuestra boda</h3>
-        <h1>Iris & Rodri</h1>
+        <h2>¡Nos casamos!<br><br></h2>
+        <h1>Iris & Rodrigo</h1>
+        <h2><br><br>11 | Abril | 2026 </h2>
         <div class="container-out">
-            
             <div class="container-in text">
-                Sabado, 11 de Abril de 2026 <br>
-                Hotel Only YOU Boutique, Madrid
 
-                <button class="huge-btn">CONFIRMAR ASISTENCIA</button>
             </div>
             <div class="home-img" id="home-img-lg"></div>
         </div>
     </div>
 
 
+
     <div class="home-img home-img-sm"></div>
     <div class="timeline hz-margin reveal">
-        <h2>Celebrando Nuestro Amor <br>
-            Con Aquellos Que Amamos
+        <h2>Nos gustaría compartir este día tan especial contigo
         </h2>
         <div class="timeline-container">
             <div class="timeline-img"></div>
             <div class="timings">
-                <h3>01.&nbsp &nbsp Ceremonia</h3>
-                <div class="text">Sabado, 11 de Abril de 2026 <br>
-                    ITC Sonar Bangla, Kolkata</div>
-                <h3>02.&nbsp &nbsp Reception</h3>
-                <div class="text">Sunday, Oct. 22, 2023 <br>
-                    Poddar Vihar, Kolkata</div>
+
+                <h3>La celebración tendrá lugar en el Hotel Only YOU Boutique</h3>
+                <table class="no-border">
+                    <tr>
+                        <td><img src="./flat_icons/arch.png" alt="Icon" width="45" height="45"></td>
+                        <td><h3> &nbsp &nbsp Ceremonia <br> &nbsp &nbsp 18:30 </h3> </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./flat_icons/gilda.png" alt="Icon" width="45" height="45"></td>
+                        <td><h3> &nbsp &nbsp Cocktail <br> &nbsp &nbsp 19:30 </h3> </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./flat_icons/dinner.png" alt="Icon" width="45" height="45"></td>
+                        <td><h3> &nbsp &nbsp Cena <br> &nbsp &nbsp 20:30 </h3> </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./flat_icons/glasses.png" alt="Icon" width="45" height="45"></td>
+                        <td><h3> &nbsp &nbsp Fiesta <br> &nbsp &nbsp 23:00 </h3> </td>
+                    </tr>
+                </table>
+                
             </div>
         </div>
     </div>
@@ -65,10 +80,9 @@
 
 
             <div id="story" class="hz-margin">
-                <h3 class="reveal">Not Just an <br>
-                    Ordinary Love Story
+                <h3 class="reveal">Nuestra Historia
                 </h3>
-                <p class="text reveal">We met on ferry. Not sure if the kids remember that one. His female housemates encouraged him to get on it - he wasn't keen, but one night we ended up chatting and the next day we met up at the Tellypara Ghat. We spent nine hours together by the river, and I bought him a cotton candy and he says that's how he knew I was the one.</p>
+                <p class="text reveal">Aquí puedes contar la historia de cómo se conocieron y su viaje juntos.</p>
             </div>
 
 
@@ -79,38 +93,38 @@
             </div>
 
 
-            <div class="quote reveal">
+            <!-- <div class="quote reveal">
                 <h1>“To the world you are one person, but to one person you are the world”.</h1>
                 <div class="author text">Anonymous</div>
-            </div>
+            </div> -->
 
 
             <div class="hands" id="parallax1"></div>
 
 
             <div id="stay">
-                <h2 class="reveal">Travel and Stay</h2>
+                <h2 class="reveal">Como llegar</h2>
                 <div class="stay-container reveal">
                     <div class="stay-item">
                         <h3>01. <br>
-                            Getting There
+                            Cómo llegar
                         </h3>
-                        <div class="text">Easy-to-follow <br> directions to the venue</div>
-                        <div class="text links">MAP & DETAILS</div>
+                        <div class="text">Instrucciones fáciles de seguir <br> para llegar al lugar</div>
+                        <div class="text links">MAPA Y DETALLES</div>
                     </div>
                     <div class="stay-item">
                         <h3>02. <br>
-                            Once You're There
+                            Una vez que estés aquí
                         </h3>
-                        <div class="text">Some fun things to do in <br> the area</div>
-                        <div class="text links">OUR RECOMMENDATIONS</div>
+                        <div class="text">Algunas cosas divertidas para hacer en <br> la zona</div>
+                        <div class="text links">NUESTRAS RECOMENDACIONES</div>
                     </div>
                     <div class="stay-item">
                         <h3>03. <br>
-                            Where to Stay
+                            Dónde hospedarse
                         </h3>
-                        <div class="text">Hotels and B&Bs <br> to check out</div>
-                        <div class="text links">LODGING OPTIONS</div>
+                        <div class="text">Hoteles y B&Bs <br> para considerar</div>
+                        <div class="text links">OPCIONES DE ALOJAMIENTO</div>
                     </div>
                 </div>
             </div>
@@ -118,11 +132,10 @@
 
             <div id="registry">
                 <div class="registry-container reveal">
-                    <h3>Promises</h3>
+                    <h3>Etiqueta?</h3>
                     <div class="text">
                         I will provide welfare and happiness for you and the children that we bear and you shall offer me food and help whenever it is required. Together, we will protect our children and home and stand as each other's strength and courage. I will put every other person secodary to you. You make my like complete and promise to respect you. God bless you, my best friend. I pray thee, may my presence fill our life with joy and prospers.
                     </div>
-                    <button class="huge-btn text">BLESS US</button>
                 </div>
                 <div class="registry-img registry-img-lg" id="parallax2"></div>
             </div>
@@ -130,20 +143,81 @@
 
 
             <div class="parting-message reveal">
-                <h1>Hope to See You!</h1>
-                <button class="huge-btn">RSVP</button>
+                <h1>¡Confirma tu asistencia!</h1>
+                <a href="https://example.com">
+                    <button class="huge-btn">CONFIRMAR</button>
+                </a>
             </div>
 
 
+              
             <footer>
-                <h2>Give us a Call</h2>
-                <h2>Amandeep: 123-456-7890</h2>
-                <h2>Gurpreet: 123-456-7890</h2>
-                <div class="text">© 2023 for Aman and Gur. Made by <a href="https://twitter.com/NathArchak" class="text">@NathArchak</a></div>
+                <h2>¿Tienes cualquier duda? Llama o escríbenos</h2>
+                <h2>Rodrigo: 633-46-75-74
+                <a href="https://wa.me/633467574" target="_blank" class="whatsapp-btn">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" class="wa-icon">
+                </a>
+                  
+                  <style>
+                      .whatsapp-btn {
+                          display: inline-flex;
+                          align-items: center;
+                          background-color: #25D366;
+                          color: white;
+                      padding: 10px 16px;
+                      border-radius: 8px;
+                      text-decoration: none;
+                      font-size: 16px;
+                      font-weight: 600;
+                    }
+                    
+                    .wa-icon {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 8px;
+                        filter: invert(1);
+                    }
+                    
+                    .whatsapp-btn:hover {
+                        background-color: #1ebe5c;
+                    }
+                  </style>
+                </h2>
+                  <h2>Iris: 627-20-87-09
+                    <a href="https://wa.me/627208709" target="_blank" class="whatsapp-btn">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" class="wa-icon">
+                    </a>
+                      
+                      <style>
+                          .whatsapp-btn {
+                              display: inline-flex;
+                              align-items: center;
+                              background-color: #25D366;
+                              color: white;
+                          padding: 10px 16px;
+                          border-radius: 8px;
+                          text-decoration: none;
+                          font-size: 16px;
+                          font-weight: 600;
+                        }
+                        
+                        .wa-icon {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 8px;
+                            filter: invert(1);
+                        }
+                        
+                        .whatsapp-btn:hover {
+                            background-color: #1ebe5c;
+                        }
+                      </style>
+    
+                  </h2>
             </footer>
         </div>
     </div>
-
+    
     <script src="main.js"></script>
 </body>
 </html>
