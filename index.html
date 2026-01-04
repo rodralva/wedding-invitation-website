@@ -13,6 +13,10 @@
 </head>
 <body>
 
+<audio autoplay>
+    <source src="music/algo_contigo_mp3.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
     <nav>
         <input type="checkbox" id="check">
@@ -29,9 +33,9 @@
 
 
     <div class="home hz-margin">
-        <h2>¡Nos casamos!<br><br></h2>
+        <h2_bigger>¡Nos casamos!<br><br></h2_bigger>
         <h1>Iris & Rodrigo</h1>
-        <h2><br><br>11 | Abril | 2026 </h2>
+        <h2_light_darkblue><br><br>Y nos encantaría que nos acompañes en este día tan especial</h2_light_darkblue>
         <div class="container-out">
             <div class="container-in text">
 
@@ -44,13 +48,41 @@
 
     <div class="home-img home-img-sm"></div>
     <div class="timeline hz-margin reveal">
-        <h2>Nos gustaría compartir este día tan especial contigo
-        </h2>
+        <h2_bigger><center>
+            11 de abril &#160 | &#160 18:30 <br><br> 
+        </center></h2_bigger>
+
+        <div class="hero">
+            <div class="timebox">
+                <div class="time">
+                    <h2_red_big id="days">00</h2_red_big>
+                    <p><h2_red>Días</h2_red></p>
+                </div>
+                <div class="time">
+                    <h2_red_big id="hours">00</h2_red_big>
+                    <p><h2_red>Horas</h2_red></p>
+                </div>
+                <div class="time">
+                    <h2_red_big id="minutes">00</h2_red_big>
+                    <p><h2_red>Minutos</h2_red></p>
+                </div>
+            </div>
+        </div>
+            <script src="script.js"></script>
+
+        <h2_light><center><br><br>Only YOU Boutique Hotel</center></h2_light>
+        <br>
+        <center>    
+            <a href="https://maps.app.goo.gl/FhpozJXcsDFRpSdn7">
+                <img src="flat_icons/map.png" alt="Click me" width="30">
+            </a>
+        </center>
+          
         <div class="timeline-container">
             <div class="timeline-img"></div>
             <div class="timings">
 
-                <h3>La celebración tendrá lugar en el Hotel Only YOU Boutique</h3>
+                <h2_bigger>Itinerario</h2_bigger>
                 <table class="no-border">
                     <tr>
                         <td><img src="./flat_icons/arch.png" alt="Icon" width="45" height="45"></td>
@@ -80,17 +112,16 @@
 
 
             <div id="story" class="hz-margin">
-                <h3 class="reveal">Nuestra Historia
-                </h3>
-                <p class="text reveal">Aquí puedes contar la historia de cómo se conocieron y su viaje juntos.</p>
+                <p class="text reveal">Hace ocho años nuestros caminos se cruzaron en una bulliciosa calle de Arguelles. Madrid significa mucho para nosotros; desde nuestro primer beso en el Retiro, a los chocolates con churros en La Platería, las noches bajo las estrellas del planetario…
+                     <br><br>Por eso, solo nos imaginábamos celebrar un día tan especial para nosotros aquí, entre las calles de esta ciudad que consideramos nuestra y de mucha gente.</p>
             </div>
 
 
-            <div class="gallery hz-margin reveal">
+            <!-- <div class="gallery hz-margin reveal">
                 <div class="gallery-img"></div>
                 <div class="gallery-img"></div>
                 <div class="gallery-img"></div>
-            </div>
+            </div> -->
 
 
             <!-- <div class="quote reveal">
@@ -103,34 +134,24 @@
 
 
             <div id="stay">
-                <h2 class="reveal">Como llegar</h2>
+                <h2_bigger class="reveal">Código de vestimenta</h2_bigger>
                 <div class="stay-container reveal">
                     <div class="stay-item">
-                        <h3>01. <br>
-                            Cómo llegar
-                        </h3>
-                        <div class="text">Instrucciones fáciles de seguir <br> para llegar al lugar</div>
-                        <div class="text links">MAPA Y DETALLES</div>
+                        <h3> El <b>código de vestimenta</b> será venir muy guapos y <b>formales</b> pero no de blanco.
+                        </h3><br>
                     </div>
+                    
+                </div>
+                <div class="stay-container reveal">
+                    <h2_bigger >Por si os lo estábais planteando...</h2_bigger>
                     <div class="stay-item">
-                        <h3>02. <br>
-                            Una vez que estés aquí
-                        </h3>
-                        <div class="text">Algunas cosas divertidas para hacer en <br> la zona</div>
-                        <div class="text links">NUESTRAS RECOMENDACIONES</div>
-                    </div>
-                    <div class="stay-item">
-                        <h3>03. <br>
-                            Dónde hospedarse
-                        </h3>
-                        <div class="text">Hoteles y B&Bs <br> para considerar</div>
-                        <div class="text links">OPCIONES DE ALOJAMIENTO</div>
+                        <h3>La asistencia es obligatoria, pero el<b> regalo es opcional</b>. Si quereis tener un detalle con nosotros, podéis colaborar aquí:</h3>
                     </div>
                 </div>
             </div>
 
 
-            <div id="registry">
+            <!-- <div id="registry">
                 <div class="registry-container reveal">
                     <h3>Etiqueta?</h3>
                     <div class="text">
@@ -140,11 +161,11 @@
                 <div class="registry-img registry-img-lg" id="parallax2"></div>
             </div>
             <div class="registry-img registry-img-sm"></div>
-
+ -->
 
             <div class="parting-message reveal">
                 <h1>¡Confirma tu asistencia!</h1>
-                <a href="https://example.com">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNityNCNZIKsirNF1X-CggK2-pcN93mM2zzvwO-hj7Gjm22g/viewform?usp=dialog">
                     <button class="huge-btn">CONFIRMAR</button>
                 </a>
             </div>
